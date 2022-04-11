@@ -17,6 +17,4 @@ data = pd.read_html(html)
 teams = data[0]     # lagdata
 players = data[1]   # spillerdata
 
-players["xG"].str.split("+", expand=False)
-
 print(players[["Player", "xG"]])
