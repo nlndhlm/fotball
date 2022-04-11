@@ -12,7 +12,6 @@ time.sleep(2)
 driver.quit()
 
 # databearbeiding
-
 data = pd.read_html(html)
 
 teams = data[0]     # lagdata
