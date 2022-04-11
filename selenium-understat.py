@@ -3,7 +3,6 @@ import time
 import pandas as pd
 
 # datainnhenting
- 
 driver = webdriver.Firefox()
 driver.get("https://understat.com/league/EPL")
  
@@ -12,7 +11,7 @@ time.sleep(2)
 
 driver.quit()
 
-#####
+# databearbeiding
 
 data = pd.read_html(html)
 
